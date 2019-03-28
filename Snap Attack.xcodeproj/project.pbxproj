@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		794431B1224D48DE003FBB58 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794431B0224D48DE003FBB58 /* Constants.swift */; };
 		79C9EAF7224D20E400E288BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C9EAF6224D20E400E288BF /* AppDelegate.swift */; };
 		79C9EAF9224D20E400E288BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C9EAF8224D20E400E288BF /* ViewController.swift */; };
 		79C9EAFC224D20E400E288BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C9EAFA224D20E400E288BF /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		794431B0224D48DE003FBB58 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		79C9EAF3224D20E400E288BF /* Snap Attack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snap Attack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C9EAF6224D20E400E288BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79C9EAF8224D20E400E288BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				79C9EAF6224D20E400E288BF /* AppDelegate.swift */,
+				794431B0224D48DE003FBB58 /* Constants.swift */,
 				79C9EAF8224D20E400E288BF /* ViewController.swift */,
 				79C9EAFA224D20E400E288BF /* Main.storyboard */,
 				79C9EB00224D20E600E288BF /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 				79C9EAFF224D20E400E288BF /* Snap_Attack.xcdatamodeld in Sources */,
 				79C9EAF9224D20E400E288BF /* ViewController.swift in Sources */,
 				79C9EAF7224D20E400E288BF /* AppDelegate.swift in Sources */,
+				794431B1224D48DE003FBB58 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
