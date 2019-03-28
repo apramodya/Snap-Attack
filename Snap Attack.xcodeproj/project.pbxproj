@@ -13,6 +13,8 @@
 		79C9EAFF224D20E400E288BF /* Snap_Attack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79C9EAFD224D20E400E288BF /* Snap_Attack.xcdatamodeld */; };
 		79C9EB01224D20E600E288BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C9EB00224D20E600E288BF /* Assets.xcassets */; };
 		79C9EB04224D20E600E288BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C9EB02224D20E600E288BF /* LaunchScreen.storyboard */; };
+		79C9EB0D224D214500E288BF /* DK Cinnabar Brush.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79C9EB0B224D214500E288BF /* DK Cinnabar Brush.ttf */; };
+		79C9EB0E224D214500E288BF /* Cheveuxdange.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79C9EB0C224D214500E288BF /* Cheveuxdange.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		79C9EB00224D20E600E288BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79C9EB03224D20E600E288BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79C9EB05224D20E600E288BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C9EB0B224D214500E288BF /* DK Cinnabar Brush.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DK Cinnabar Brush.ttf"; sourceTree = "<group>"; };
+		79C9EB0C224D214500E288BF /* Cheveuxdange.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cheveuxdange.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				79C9EAF8224D20E400E288BF /* ViewController.swift */,
 				79C9EAFA224D20E400E288BF /* Main.storyboard */,
 				79C9EB00224D20E600E288BF /* Assets.xcassets */,
+				79C9EB0C224D214500E288BF /* Cheveuxdange.ttf */,
+				79C9EB0B224D214500E288BF /* DK Cinnabar Brush.ttf */,
 				79C9EB02224D20E600E288BF /* LaunchScreen.storyboard */,
 				79C9EB05224D20E600E288BF /* Info.plist */,
 				79C9EAFD224D20E400E288BF /* Snap_Attack.xcdatamodeld */,
@@ -126,7 +132,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				79C9EB04224D20E600E288BF /* LaunchScreen.storyboard in Resources */,
+				79C9EB0E224D214500E288BF /* Cheveuxdange.ttf in Resources */,
 				79C9EB01224D20E600E288BF /* Assets.xcassets in Resources */,
+				79C9EB0D224D214500E288BF /* DK Cinnabar Brush.ttf in Resources */,
 				79C9EAFC224D20E400E288BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
