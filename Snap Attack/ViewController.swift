@@ -10,11 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var timeLbl: UILabel!
+    @IBOutlet weak var scoreLbl: UILabel!
+    @IBOutlet weak var firstCard: UIImageView!
+    @IBOutlet weak var secondCard: UIImageView!
+    @IBOutlet weak var startBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func startGame(_ sender: Any) {
+    }
+    
 }
 

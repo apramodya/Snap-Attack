@@ -23,20 +23,20 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Snap_Attack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Table" translatesAutoresizingMaskIntoConstraints="NO" id="xRq-nu-frD">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snap Attack" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4Os-eO-uV9">
-                                <rect key="frame" x="18" y="65.000000000000014" width="378" height="230.33333333333337"/>
+                                <rect key="frame" x="18" y="41" width="339" height="145"/>
                                 <fontDescription key="fontDescription" name="DKCinnabarBrush" family="DK Cinnabar Brush" pointSize="60"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time: 20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="d0a-IX-fPp">
-                                <rect key="frame" x="17" y="318.33333333333331" width="167.66666666666666" height="50"/>
+                                <rect key="frame" x="17" y="209" width="148.5" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="pnv-RJ-hoN"/>
                                 </constraints>
@@ -45,7 +45,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Lyq-ea-bJN">
-                                <rect key="frame" x="231" y="318.33333333333331" width="167.66666666666663" height="50"/>
+                                <rect key="frame" x="212" y="209" width="148.5" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Mms-mn-avg"/>
                                 </constraints>
@@ -54,20 +54,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRd-U1-pMe">
-                                <rect key="frame" x="16" y="611.66666666666663" width="382" height="230.33333333333337"/>
+                                <rect key="frame" x="16" y="502.5" width="343" height="144.5"/>
                                 <fontDescription key="fontDescription" name="DKCinnabarBrush" family="DK Cinnabar Brush" pointSize="75"/>
                                 <state key="normal" title="Start">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="startGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x2F-HU-74N"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blue_cover" translatesAutoresizingMaskIntoConstraints="NO" id="1pi-3r-fbV">
-                                <rect key="frame" x="17" y="375.66666666666669" width="167.66666666666666" height="220.00000000000006"/>
+                                <rect key="frame" x="17" y="266.5" width="148.5" height="220"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="220" id="qh7-Xm-Chp"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blue_cover" translatesAutoresizingMaskIntoConstraints="NO" id="eAV-uC-GvH">
-                                <rect key="frame" x="227.66666666666663" y="375.66666666666669" width="167.33333333333337" height="220.00000000000006"/>
+                                <rect key="frame" x="208.5" y="266.5" width="148.5" height="220"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="220" id="zIs-Nm-1p7"/>
                                 </constraints>
@@ -104,6 +107,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="firstCard" destination="1pi-3r-fbV" id="C7b-Br-GGQ"/>
+                        <outlet property="scoreLbl" destination="Lyq-ea-bJN" id="Nx8-Qu-yLi"/>
+                        <outlet property="secondCard" destination="eAV-uC-GvH" id="x6S-tB-l9F"/>
+                        <outlet property="startBtn" destination="lRd-U1-pMe" id="bWA-jE-A7M"/>
+                        <outlet property="timeLbl" destination="d0a-IX-fPp" id="I9m-E6-FcN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
